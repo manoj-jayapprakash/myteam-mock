@@ -2,6 +2,7 @@ import ContactUs from 'components/ContactUs';
 import Features from 'components/Features/index';
 import Footer from 'components/Footer';
 import Hero from 'components/Hero';
+import Testimonials from 'components/Testimonials';
 import Heading from 'components/UI/Heading';
 import Paragraph from 'components/UI/Paragraph';
 
@@ -21,6 +22,7 @@ function Home() {
       <div className="bg-secondary-sacramento-green">
         <Features />
       </div>
+      <Testimonials />
       <div className="bg-primary-coral p-16 text-center md:p-24 md:text-left">
         <ContactUs />
       </div>

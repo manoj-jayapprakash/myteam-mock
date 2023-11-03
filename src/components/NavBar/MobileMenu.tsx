@@ -5,7 +5,7 @@ import close from 'assets/icon-close.svg';
 
 function MobileMenu({ hideMobileMenu }: { hideMobileMenu: () => void }) {
   return (
-    <div className="absolute top-0 left-1/4 bg-secondary-police-blue p-4 w-3/4 h-screen">
+    <div className="absolute top-0 left-1/4 bg-secondary-police-blue p-4 w-3/4 h-screen z-10">
       <ul className=" grid gap-8 text-white lowercase ml-4">
         <li className="ml-auto mt-4">
           <button

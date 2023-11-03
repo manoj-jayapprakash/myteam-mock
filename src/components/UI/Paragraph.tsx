@@ -8,9 +8,7 @@ function Paragraph({
   className?: string;
 }) {
   return (
-    <p className={`text-base xl:text-lg font-semibold ${className}`}>
-      {children}
-    </p>
+    <p className={`text-base xl:text-lg font-light ${className}`}>{children}</p>
   );
 }
 

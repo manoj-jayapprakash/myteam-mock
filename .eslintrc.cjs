@@ -22,5 +22,6 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/require-default-props': 'warn',
+    'import/prefer-default-export': 0,
   },
 };
