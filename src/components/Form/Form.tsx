@@ -4,6 +4,7 @@ import Buttons from 'components/UI/Buttons';
 import { z, ZodType } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import FormInput from './FormInput';
+import toast from 'react-hot-toast';
 
 export type FormSchema = {
   name: string;
@@ -69,7 +70,7 @@ function Form() {
   ];
 
   const submitHandler = (data: FormSchema) => {
-    console.log(data);
+   toast.success('Thank you for contacting us. We will get back to you soon!')
   };
 
   return (

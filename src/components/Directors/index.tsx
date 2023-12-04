@@ -5,7 +5,7 @@ import Director from './Director';
 
 function Directors() {
   return (
-    <section className="pt-12 pb-24">
+    <section className="max-w-6xl mx-auto pt-12 pb-24">
       <Heading type="h2" className="pb-8 text-center">
         Meet the directors
       </Heading>

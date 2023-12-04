@@ -26,9 +26,6 @@ function Home() {
       <div className="bg-primary-coral p-16 text-center md:p-24 md:text-left">
         <ContactUs />
       </div>
-      <div className="bg-secondary-sacramento-green">
-        <Footer />
-      </div>
     </main>
   );
 }

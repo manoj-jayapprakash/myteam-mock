@@ -26,7 +26,7 @@ function Footer() {
     },
   ];
   return (
-    <footer className="py-12 grid gap-4 text-center md:text-start max-w-6xl mx-auto">
+    <footer className="py-12 grid gap-4 text-center md:text-start max-w-6xl mx-auto bg-secondary-sacramento-green">
       <div className="grid gap-4 md:flex md:justify-between md:items-center">
         <div className="grid gap-4">
           <Logo className="mx-auto w-fit block" />

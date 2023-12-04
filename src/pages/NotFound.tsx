@@ -1,17 +1,12 @@
 import { Link } from 'react-router-dom';
-import Buttons from 'components/UI/Buttons';
-import Heading from 'components/UI/Heading';
 
 function NotFound() {
   return (
-    <>
-      <h1>Not Found</h1>
-      <Link to="/">GO HOME</Link>
-      <Heading type="h1">Hello World</Heading>
-      <Buttons model="primary" mode="light" text="hello" />
-      <Buttons model="primary" mode="dark" text="primary dark" />
-      <Buttons model="secondary" mode="light" text="secondary" />
-    </>
+    <div className='grid place-content-center h-[80vh] gap-4'>
+      <h1 className='mx-auto'>Page Not Found.</h1>
+      <p>We are unable to identify the page you are looking for!</p>
+      <Link to="/" className='underline w-fit mx-auto'>HOME</Link>
+    </div>
   );
 }
 

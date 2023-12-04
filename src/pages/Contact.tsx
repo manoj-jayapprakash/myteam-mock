@@ -16,9 +16,6 @@ function Contact() {
         <Queries />
       </Hero>
       <Form />
-      <div className="bg-secondary-sacramento-green">
-        <Footer />
-      </div>
     </main>
   );
 }
