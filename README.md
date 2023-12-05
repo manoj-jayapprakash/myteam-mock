@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://myteam-mock.vercel.app/)
 
 Completed as part of the Frontend Mentor challenge, this project showcases a responsive multi-page website with optimal layouts, interactive team details on the About page, and error-driven feedback on the Contact page. The inclusion of hover and focus states, along with a meticulous design system, ensures a polished and user-friendly experience.
 
@@ -65,7 +65,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/manoj-jayapprakash/myteam-mock.git
    ```
 2. Install NPM packages
    ```sh
