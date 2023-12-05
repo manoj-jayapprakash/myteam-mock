@@ -37,8 +37,12 @@ Completed as part of the Frontend Mentor challenge, this project showcases a res
 
 ### Built With
 
-* [![Vite][Vite]][Vite-url]
-* [![React][React.js]][React-url]
+* Vite
+* React
+* Tailwind CSS
+* Typescript
+* React Router
+* Zod
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +131,3 @@ Project Link: [https://github.com/manoj-jayapprakash/myteam-mock](https://github
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: images/ss.png
-[Vite]: https://img.shields.io/badge/Vite?style=for-the-badge&logo=vite&logoColor=#646CFF
-[Vite-url]: https://vitejs.dev/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
